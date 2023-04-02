@@ -1,0 +1,34 @@
+{
+  "name": "js-math",
+  "version": "0.0.0",
+  "description": "A simple math calculation library for JavaScript and Node.js",
+  "author": "xukang <15380598700@163.com>",
+  "homepage": "https://github.com/acejs/libs#readme",
+  "license": "ISC",
+  "main": "lib/js-math.js",
+  "keywords": [
+    "Javascipt",
+    "Typescript",
+    "library",
+    "math",
+    "precision",
+    "calc"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acejs/libs.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/js-math.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/acejs/libs/issues"
+  }
+}
