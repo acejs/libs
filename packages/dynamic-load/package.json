@@ -1,11 +1,13 @@
 {
   "name": "dynamic-load",
-  "version": "0.0.0",
-  "description": "> TODO: description",
+  "version": "0.0.1",
+  "description": "Dynamic load umd resource.",
   "author": "xukang <15380598700@163.com>",
   "homepage": "https://github.com/acejs/libs#readme",
   "license": "ISC",
-  "main": "lib/dynamic-load.js",
+  "main": "dist/dynamic-load.umd.js",
+  "module": "dist/dynamic-load.esm.js",
+  "type": "module",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,7 +20,8 @@
     "url": "git+https://github.com/acejs/libs.git"
   },
   "scripts": {
-    "test": "node ./__tests__/dynamic-load.test.js"
+    "test": "node ./__tests__/dynamic-load.test.js",
+    "build": "rollup --config rollup.config.js"
   },
   "bugs": {
     "url": "https://github.com/acejs/libs/issues"

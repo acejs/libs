@@ -3,13 +3,17 @@ lockfileVersion: '6.0'
 importers:
 
   .:
+    dependencies:
+      tslib:
+        specifier: ^2.5.0
+        version: 2.5.0
     devDependencies:
       '@rollup/plugin-terser':
         specifier: ^0.4.0
         version: 0.4.0(rollup@3.20.2)
       '@rollup/plugin-typescript':
         specifier: ^11.0.0
-        version: 11.0.0(rollup@3.20.2)(typescript@5.0.3)
+        version: 11.0.0(rollup@3.20.2)(tslib@2.5.0)(typescript@5.0.3)
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.57.0
         version: 5.57.0(@typescript-eslint/parser@5.57.0)(eslint@8.37.0)(typescript@5.0.3)
@@ -177,7 +181,7 @@ packages:
       terser: 5.16.8
     dev: true
 
-  /@rollup/plugin-typescript@11.0.0(rollup@3.20.2)(typescript@5.0.3):
+  /@rollup/plugin-typescript@11.0.0(rollup@3.20.2)(tslib@2.5.0)(typescript@5.0.3):
     resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -193,6 +197,7 @@ packages:
       '@rollup/pluginutils': 5.0.2(rollup@3.20.2)
       resolve: 1.22.1
       rollup: 3.20.2
+      tslib: 2.5.0
       typescript: 5.0.3
     dev: true
 
@@ -2558,6 +2563,9 @@ packages:
   /tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
+
+  /tslib@2.5.0:
+    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
 
   /tsutils@3.21.0(typescript@5.0.3):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
